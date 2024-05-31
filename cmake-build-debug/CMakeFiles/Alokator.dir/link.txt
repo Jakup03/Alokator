@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Alokator.dir/main.c.o CMakeFiles/Alokator.dir/heap.c.o -o Alokator 

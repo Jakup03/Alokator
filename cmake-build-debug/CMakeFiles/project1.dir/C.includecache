@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Desktop/So2/Alokator/custom_unistd.h
+unistd.h
+-
+stdint.h
+-
+
+/root/Desktop/So2/Alokator/heap.c
+heap.h
+/root/Desktop/So2/Alokator/heap.h
+custom_unistd.h
+/root/Desktop/So2/Alokator/custom_unistd.h
+stdio.h
+-
+string.h
+-
+
+/root/Desktop/So2/Alokator/heap.h
+stdio.h
+-
+
